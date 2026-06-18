@@ -1,11 +1,14 @@
 nav {
   display:grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: auto 1fr;
   justify-items: start;
+  align-items: center;
   height: 10vh;
 }
 
 img {
   height: 10vh;
   width: auto;
+  padding: 0px;
+  margin: 0px;
 }
