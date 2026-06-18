@@ -12,3 +12,7 @@ img {
     height: 5vh;
     width: auto;
 }
+
+.login-card {
+    display: grid;
+    grid-template-column: auto 1fr;
