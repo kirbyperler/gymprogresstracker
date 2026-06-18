@@ -25,4 +25,8 @@ main {
 .buttons {
   display: grid;
   grid-template-columns: 1fr;
+  width: 50 vh;
+  background: none;
+  border-radius: 5px;
+  margin: 20px;
 }
