@@ -1,5 +1,4 @@
 nav {
-  display:flex;
-  justify-content: center;
-  span: 20;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
 }
