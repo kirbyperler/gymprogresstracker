@@ -3,7 +3,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.icon {
+img {
   width: 20%;
   height: auto;
 }
