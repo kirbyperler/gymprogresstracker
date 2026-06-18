@@ -37,8 +37,24 @@ main {
   gap: 10px;
   height: 20vh;
 }
-.buttons button {
-  font-size: 2.5vh;
-  justify-content: center;
-  border-radius: 1vh;
+
+.button button{
+  background: #081A5C;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background: #0D2C96;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0px);
 }
