@@ -16,6 +16,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.page-header {
+    background: white;
+}
+
 .login-card {
     width: 400px;
 
