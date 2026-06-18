@@ -19,6 +19,7 @@ img {
     grid-template-column: auto 1fr;
 
 .page-title {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
