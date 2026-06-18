@@ -18,10 +18,11 @@ h1 {
   margin: 0px;
 }
 
-body {
+main {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+  height: 90vh;
 }
 
 .buttons {
