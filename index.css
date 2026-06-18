@@ -19,7 +19,7 @@ body {
 
 .page-header {
     display: grid;
-    grid-column-
+    grid-template-column: repeat(2, 1fr);
     background: white;
 }
 
