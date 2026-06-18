@@ -55,6 +55,6 @@ main {
   transform: translateY(-2px);
 }
 
-button:active {
+.buttons button:active {
   transform: translateY(0px);
 }
