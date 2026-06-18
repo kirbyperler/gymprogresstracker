@@ -1,28 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gym Progress Tracker</title>
-    <link rel="stylesheet" href="homepage.css" />
-    <script defer src="homepage.js" ></script>
-    <link rel="icon" href="icon.png" />
-    <meta name="description" content="Track and organize your gains" />
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stone Supply Company</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">StoneWorks</div>
+
     <nav>
-      <img src="icon.png" alt="Website logo">
-      <h1>Gym Progress Tracker</h1>
+      <a href="#products">Products</a>
+      <a href="#process">How It Works</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <main>
-      <div class="buttons">
-        <button>Start Workout</button>
-        <button>Edit Workouts</button>
-        <button>View Progress</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Premium Stone & Masonry Materials</h1>
+      <p>Helping homeowners, contractors, and builders find the right materials for patios, walls, veneers, walkways, and outdoor spaces.</p>
+      <a href="#contact" class="btn">Request a Quote</a>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Built for Better Outdoor Projects</h2>
+    <p>
+      We supply high-quality natural stone, masonry products, pavers, flagging, veneer, wallstone, and outdoor accessories for projects of every size.
+    </p>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Thin Stone Veneer</h3>
+        <p>Lightweight natural stone for exterior and interior walls.</p>
       </div>
-    </main>
-    <footer>
-      
-    </footer>
-  </body>
+
+      <div class="card">
+        <h3>Full Bed Veneer</h3>
+        <p>Traditional full-depth stone for strong, lasting builds.</p>
+      </div>
+
+      <div class="card">
+        <h3>Bluestone</h3>
+        <p>Perfect for patios, walkways, steps, and outdoor living areas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Flagging</h3>
+        <p>Natural stone slabs for patios, paths, and landscape designs.</p>
+      </div>
+
+      <div class="card">
+        <h3>Pavers</h3>
+        <p>Clean and durable options for driveways, patios, and walkways.</p>
+      </div>
+
+      <div class="card">
+        <h3>Wallstone</h3>
+        <p>Natural stone for retaining walls, garden walls, and borders.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="section light">
+    <h2>How It Works</h2>
+
+    <div class="steps">
+      <div>
+        <span>1</span>
+        <h3>Tell Us About Your Project</h3>
+        <p>Send us your ideas, photos, measurements, or project details.</p>
+      </div>
+
+      <div>
+        <span>2</span>
+        <h3>Choose Your Materials</h3>
+        <p>We help you find the best stone for your style, budget, and use.</p>
+      </div>
+
+      <div>
+        <span>3</span>
+        <h3>Pick Up or Deliver</h3>
+        <p>Get your materials ready for pickup or schedule delivery.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Project Gallery</h2>
+
+    <div class="gallery">
+      <div>Patios</div>
+      <div>Walkways</div>
+      <div>Walls</div>
+      <div>Firepits</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Request a Quote</h2>
+    <p>Tell us what you’re working on and we’ll help you get started.</p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" />
+      <textarea placeholder="Tell us about your project"></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>StoneWorks Supply</p>
+    <p>123 Main Street | (203) 555-1234 | info@stoneworks.com</p>
+  </footer>
+
+</body>
 </html>
