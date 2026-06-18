@@ -2,11 +2,10 @@ nav {
   display:grid;
   grid-template-columns: 1fr 4fr;
   justify-items: start;
-  height: 20px;
-  width: auto;
+  height: 70px;
 }
 
 img {
-  width: auto;
   height: 100%;
+  width: auto;
 }
