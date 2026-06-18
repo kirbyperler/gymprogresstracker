@@ -51,7 +51,7 @@ main {
 }
 
 .buttons button:hover {
-  background: #0D2C96;
+  background: (150,150,150);
   transform: translateY(-2px);
 }
 
