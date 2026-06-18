@@ -21,9 +21,5 @@ img {
 .page-title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.page-title img {
-    display: block;
+    align-items: center;
 }
