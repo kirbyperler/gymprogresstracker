@@ -17,3 +17,8 @@ h1 {
   padding: 0px;
   margin: 0px;
 }
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  ali
